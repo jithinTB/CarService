@@ -1,0 +1,412 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+/*	font-family:'Sofia','Aboreto','Aguafina Script';*/
+
+}
+
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{ width: 100%; }
+	   .container{max-width: 1400px; margin: auto;}
+	   .img-fluid{width: 100%; height: auto;}
+	   .clr{clear:both;}
+
+a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+
+			/*Navbar*/
+.logo{margin-left: 150px;}
+.logo a{color: #cb0c0c;font-weight: bold;font-family: American Captain;letter-spacing: 5px;}
+/*.nav_main{position: fixed;background-color:whitesmoke;z-index: 1000;top: 0;}*/
+.nav_main{position: sticky;background-color:whitesmoke;top: 0;z-index: 1000;}
+.navbar a{color:black;font-family:Montserrat,SemiBold;position: relative;}
+.navbar a::before, .navbar a::after{content: "";position: absolute;height: 3px;background-color: #cb0c0c;width: 0;bottom: -6px;transition: all .5s;}
+.navbar a::before{left: 50%;}
+.navbar a::after{right: 50%;}
+.navbar a:hover::before{width: 70%;}
+.navbar a:hover::after{width: 70%;}
+/*.nav_box:hover{border-bottom:1px solid #cb0c0c;}*/
+.nav_box{text-align: center;}
+.nav_search{width: 100%;border: none;border-bottom: 1px solid black;outline: none;font-size: 16px;background-color: transparent;}
+.nav_search:focus{border-bottom: 1px solid #cb0c0c;}
+.nav_search::placeholder {font-size: 16px;}
+.toggle_icon{display: none;float: right;}
+.toggle_icon img{width: 30px;margin-top: 5px;}
+
+			/*Toggle menu*/
+.toggle_menu{width: 500px;height: auto;text-align: center;background-color:#cb0c0c;margin: auto;display: none;}
+.toggle_menu a{color: white;font-family:Montserrat,SemiBold;margin:20px 0;display: inline-block;}
+.toggle_menu a:hover ,.toggle_home:hover{background-color:#960909;}
+			/*Toggle menu*/
+
+
+		/*banner*/
+.index_bg h1{padding: 180px 0 0 250px;font-size: 105px;font-family: American Captain;letter-spacing: 10px;}
+.index_bg p{padding:10px 200px 0 200px;font-size: 14px;text-align: justify;line-height: 25px;color: #515151;font-family:Montserrat,SemiBold;}
+/*.content{padding:100px 0;}*/
+.index_bg img{padding: 120px 0 0 0;}
+
+/*
+.content{
+	background-image: url("file:///C:/wamp64/www/Jithin%20TB/PHP/car_service/images/index%20banner_png.png");
+	background-position: center;
+	background-size: cover;
+}
+*/
+
+.hspace{margin-left: 90px;}
+.btns{margin:20px 0 0 400px;}
+#read_more{width: 15%;height: 40px;border: none;border: 1px solid #cb0c0c;background-color: transparent;border-radius: 20px 100px;transition: 0.5s;}
+#read_more:hover{background-color: #cb0c0c;color: white;cursor: pointer;}
+#contact_us{width: 15%;height: 40px;margin-left: 50px;border: none;border: 1px solid #cb0c0c;
+			background-color: transparent;border-radius: 100px 20px;transition: 0.5s;}
+#contact_us:hover{background-color: #cb0c0c;color: white;cursor: pointer;}
+
+
+		/*Our Service*/
+.service_sec{margin: 130px 0 100px 0;}
+.service_sec hr{width: 120px;border: 2px solid #cb0c0c;margin-left: 270px;}
+.service_con{margin-top: 100px;}
+.service_sec h1{margin-left: 270px; font-family:Montserrat,SemiBold;font-size:62px;padding: 0 0 10px 0;}
+.s_box{margin: 20px 0;border-radius: 10px;width: 30%;margin:20px;transition: 0.5s;}
+.s_box:hover{box-shadow: 2px 2px 5px 5px #e6e6e6;}
+.s_box h4{text-align: center;font-family:Montserrat,SemiBold;font-size:16px;padding:5px 0;}
+.s_box p{text-align: justify;font-family:Montserrat,SemiBold;font-size:14px;line-height: 25px;padding: 10px;}
+/*.service_img{border-radius: 50%;border: 3px solid #cb0c0c;width: 110px;height: 110px;overflow: hidden;}*/
+.service_img img{transition: 0.5s;}
+.service_img img:hover{transform: scale(1.2);}
+
+		/*About Us*/
+.about_sec{margin: 100px 0;}
+.about_container{display: flex;flex-direction: row;}
+.about_container h1{text-align: left; font-family:Montserrat,SemiBold;padding: 10px 0 5px 0;margin-top: 60px;font-size:62px;}
+.about_container hr{width: 200px;border: 2px solid #cb0c0c; margin-bottom: 15px;}
+.about_con p{text-align: justify; font-family:Montserrat,SemiBold;line-height: 30px;}
+#about_btn{width: 20%;height: 40px;background-color: transparent;border: 1px solid #cb0c0c;margin: 20px 0;border-radius: 20px 100px;transition: 1s;}
+#about_btn:hover{background-color:#cb0c0c;color: white;cursor: pointer;}
+#about_btn2{width: 20%;height: 40px;background-color: transparent;transition: 1s;border: 1px solid #cb0c0c;
+	margin: 20px 0 10px 10px;border-radius: 100px 20px;}
+#about_btn2:hover{background-color:#cb0c0c;color: white;border-radius: 100px 20px;cursor: pointer;}
+		/*About Us*/
+
+
+		/*why choose us*/
+.chooseus_sec{margin: 100px 0;}
+.chooseus_con{margin-top:100px;}
+.chooseus_con h1{text-align: left; font-family:Montserrat,SemiBold;padding: 10px 0 5px 0;margin-top: 80px;font-size:62px;}
+.chooseus_con hr{width: 130px;border: 2px solid #cb0c0c; margin:0 0 50px 5px;}
+.chooseus_img{border-radius: 50%;border: 3px solid #cb0c0c;width: 110px;height: 110px;overflow: hidden;}
+.chooseus_box img{transition: 0.5s;}
+.chooseus_box img:hover{transform: scale(1.2);}
+.chooseus_box h4{text-align: center;font-family:Montserrat,SemiBold;font-size:16px;padding:5px 0;}
+.chooseus_box p{text-align: justify; font-family:Montserrat,SemiBold;line-height: 25px;font-size: 14px;}
+.chooseus_box a{font-family:Montserrat,SemiBold;font-size: 14px;color:#cb0c0c;transition: 0.5s;}
+.chooseus_box a:hover{font-size: 18px;}
+		/*why choose us*/
+
+		/*Gallery*/
+.row {display: flex;flex-wrap: wrap;padding: 0 4px;}
+.column {flex: 25%;max-width: 25%;padding: 0 4px;}
+.column img {margin-top: 8px;vertical-align: middle;width: 100%;}	
+.gallery_sec h1{text-align: left; font-family:Montserrat,SemiBold;padding: 10px 0 5px 0;margin-top: 80px;font-size:62px;}
+.gallery_sec hr{width: 250px;border: 2px solid #cb0c0c; margin:0 0 50px 5px;}
+
+
+		/*Testimonial*/
+.testi_sec{margin: 100px 0;}
+.testi_con h1{text-align: left; font-family:Montserrat,SemiBold;padding: 10px 0 5px 0;margin-top: 80px;font-size:62px;}
+.testi_con hr{width: 300px;border: 2px solid #cb0c0c; margin:0 0 50px 5px;}
+.t1{box-shadow: 2px 2px 5px 5px #e6e6e6;border-radius: 10px;width: 800px;margin: auto;
+	opacity: 1;animation:t1 2s 1;animation-delay: 1.5s;}
+.t1 p{font-size: 14px;font-family:Montserrat,SemiBold;line-height: 25px;text-align: center;padding: 50px;}
+.t1 h4{font-size: 14px;font-family:Montserrat,SemiBold;text-align: center;padding-bottom: 20px;}
+.t2{box-shadow: 2px 2px 5px 5px #e6e6e6;border-radius: 10px;width: 800px;margin: auto;}
+.t2 p{font-size: 14px;font-family:Montserrat,SemiBold;line-height: 25px;text-align: center;padding: 50px;}
+.t2 h4{font-size: 14px;font-family:Montserrat,SemiBold;text-align: center;padding-bottom: 20px;}
+.client_img{width:500px;margin: auto;margin-top: 30px;}
+.client_img img{transition: 0.5s;}
+.client_img img:hover{transform: scale(1.2);transition: 0.5s;}
+.testi_img{border: 2px solid #cb0c0c;border-radius: 50%;padding: 5px;overflow: hidden;margin: 0 10px;width: 70px;height: 70px;transition: 0.5s;}
+.testi_img:hover {transform: scale(1.3);cursor: pointer;}
+
+
+/*
+@keyframes t1{
+	0%{
+		transform: scale(.2);
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+*/
+		/*Testimonial*/
+
+		/*Contact*/
+.contact{margin: 100px 0;background-color: whitesmoke;}
+.contact h1{text-align: left; font-family:Montserrat,SemiBold;padding: 65px 0 5px 0;font-size:62px;}
+.contact hr{width: 250px;border: 2px solid #cb0c0c; margin:0 0 50px 5px;}
+.contact_form{border-radius: 10px;padding: 20px;}
+.lable_name{font-family:Montserrat,SemiBold;color: red;}
+#name ,#email ,#phone{width: 90%;background-color:transparent;outline: none;height: 40px;
+	border: 2px solid #000;border-radius: 5px;padding-left: 15px;margin:0 0 20px 0;font-family:Montserrat,SemiBold;}
+#name:focus ,#email:focus ,#phone:focus{border:2px solid red;}
+#msg{width: 90%; background-color:transparent;outline: none;border: 2px solid #000;
+	border-radius: 5px;padding: 15px 0 0 15px;font-family:Montserrat,SemiBold;}
+#msg:focus{border:2px solid red;}
+#contact_btn{width: 30%;background-color: #cb0c0c; border:none;height: 40px;margin-top: 10px;color: white;transition: 0.5s;}
+#contact_btn:hover{border:1px solid #cb0c0c;color: #cb0c0c;background-color:transparent;cursor: pointer;}
+
+		/*Contact*/
+
+		/*Footer*/
+.footer{background-color: #cb0c0c;}
+.footer_con img{cursor: pointer;}
+.footer_con p ,.footer_con h4 ,.footer_con a{color:white;font-family:Montserrat,SemiBold; }
+.footer_con a:hover{color: whitesmoke;text-decoration: underline;}
+.footer_con a:hover{transition: 1s;}
+#footer_btn{background-color: white;color: red;border: none;border-radius: 5px;cursor: pointer;transition: 0.5s;font-size: 18px;width:150px;height: 50px;}
+#footer_btn:hover{background-color: transparent;border: 1px solid whitesmoke;color:whitesmoke;}
+		/*Footer*/
+
+
+
+
+
+@media(max-width:768px){
+	.navbar ,.nav_search{display: none;}
+	.toggle_icon{display: block;margin-right: 100px;}
+	.logo{margin-left: 100px;}
+		/*Banner*/
+    .index_bg h1 {padding: 50px 0 0 10px;font-size: 35px;letter-spacing: 1px;}
+	.hspace {margin-left: 30px;}
+	.index_bg p {padding: 10px 20px 0 20px;font-size: 12px;}
+	.index_bg p {padding: 10px 0 0 0;font-size: 10px;line-height: 21px;color: #000;}
+	.btns {margin: 20px 0 0 0px;}
+	#contact_us {width: 40%;margin-left: 30px;}
+	#read_more {width: 40%;}
+	.indexbg_con{width: 40%;}
+	.indexbg_img{width: 60%;}
+	.index_bg img {padding: 20px 0 0 0;width: 430px;}
+	.content{padding-bottom:0;}
+	
+		/*Service*/
+.service_sec {margin: 50px 0;}
+.service_con{margin-top: 30px;}
+.service_sec h1 {margin-left: 30px;font-size: 42px;}	
+.service_sec hr {width: 80px;margin-left: 32px;}
+.s_box{width: 45%;margin: 0 19px;}	
+		/*Service*/
+	
+		/*About*/
+.about_sec{margin: 50px 0;}	
+.about_con h1 {font-size: 42px;}
+.about_con hr {width: 135px;}
+.about_con p {line-height: 23px;font-size: 12px;}	
+#about_btn ,#about_btn2 {width: 33%;}
+.about_img{margin-top: 140px;}	
+		/*About*/
+	
+	/*Why choose us*/
+.chooseus_con h1 {padding: 10px 0 5px 30px;font-size: 42px;}	
+.chooseus_con hr {width: 90px;margin: 0 0 20px 35px;}	
+.chooseus_box{width: 100%;}	
+.chooseus_box p {padding: 0 69px;}	
+.chooseus_box a {margin-left: 325px;}	
+	/*Why choose us*/
+
+	/*Gallery*/
+.column{flex: 50%;max-width: 50%;}
+.gallery_sec h1{font-size: 42px;margin-left: 30px;}
+.gallery_sec hr {width: 168px;margin: 0 0 20px 30px;}	
+	/*Gallery*/
+	
+	
+	/*Testimonial*/
+.testi_con h1 {margin-left:30px;font-size: 42px;}	
+.testi_con hr {width: 206px;margin: 0 0 0px 35px;}
+.t1 ,.t2 {margin: 50px 0 0 34px;width: 700px;}	
+.t1 p ,.t2 p {padding: 30px;font-size: 12px;}
+/*.client_img {margin: 0 0 0 150px;}*/
+	/*Testimonial*/
+	
+	/*Contact*/
+.contact {margin: 50px 0;}	
+.contact h1 {padding: 65px 0 5px 30px;font-size: 42px;}	
+.contact hr {width: 175px;margin: 0 0 50px 30px;}
+	/*Contact*/
+	
+	/*footer*/
+.f1 p{font-size: 12px;line-height: 20px;}	
+.f2 a ,.f3 a ,.f4 a{font-size: 11px;}
+.footer_con img {width: 35px;}
+.twitter{margin: 0 20px;}
+#footer_btn {font-size: 14px;width: 101px;height: 42px;}
+	/*footer*/
+}
+
+@media(max-width:425px){
+	/*Navbar*/
+.logo {margin-left: 10px;}	
+.toggle_icon {margin-right: 45px;}
+.toggle_menu {width: 425px;}
+	
+	/*Banner*/
+.index_bg{
+/*	background-color: red;*/
+	background-image: url("file:///C:/wamp64/www/Jithin%20TB/PHP/car_service/images/banner-425.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+.indexbg_con{width: 100%;}	
+.indexbg_img{display: none;}
+.index_bg h1 {font-size: 38px;text-align: center;padding: 0;}
+.index_bg p{color: #000;font-size: 14px;line-height: 23px;}
+.hspace {margin-left: 0px;}	
+.btns {margin: 30px 0 0 32px;}	
+	
+	/*Service*/
+.s_box {width: 100%;margin: 15px 0px;}
+.service_sec h1 {margin-left: 30px;font-size: 32px;}
+.service_sec hr {width: 55px;}
+	
+	/*About*/
+.about_container{flex-direction: column-reverse;}	
+.about_con h1 {font-size: 32px;margin:0 0 0 15px;}
+.about_con hr {width: 103px;margin-bottom: 10px;margin-left: 15px;}
+.about_con p {font-size: 13px;padding: 0 20px 0 20px;}
+.about_img {width: 100%;float: right;margin-top: 0;}
+.about_con{width: 100%;float: left;}
+#about_btn{margin-left: 18px;width: 25%;}	
+	
+	/*Why choose us*/
+.chooseus_sec {margin: 50px 0;}
+.chooseus_con {margin-top: 0px;}	
+.chooseus_con h1 {font-size: 32px;margin-top: 0;}	
+.chooseus_con hr {width: 70px;}
+.chooseus_box p {padding: 0 10px;}
+.chooseus_box a {margin-left: 160px;}	
+
+	/*Gallery*/
+.column {flex: 100%;max-width: 100%;}
+.gallery_sec h1 {font-size: 32px;}	
+.gallery_sec hr {width: 130px;}	
+	/*Gallery*/
+	
+	/*Testimonial*/
+.testi_sec {margin: 50px 0;}	
+.testi_con h1 {font-size: 32px;}
+.testi_con hr {width: 150px;}
+.t1 ,.t2 {width: 350px;}	
+.client_img {width: 425px;padding: 0 20px 0 20px;}	
+.testi_img {margin: 0 7px;width: 60px;height: 60px;}
+	
+	/*Contact*/
+.contact h1 {font-size: 32px;}
+.contact hr {width: 133px;}	
+.contact_form{width: 100%;}
+.contact_img{width: 100%;}
+#name, #email, #phone {width: 100%;}
+#msg {width: 100%;}	
+	
+	/*Footer*/
+.f1 ,.f2 ,.f3 ,.f4{width: 100%;}	
+.f1 p {font-size: 14px;}	
+.footer_con h4{font-size: 18px;}
+.footer_con a{font-size: 14px;}
+#footer_btn {width: 140px;height: 45px;}	
+}
+
+
+@media(max-width:375px){
+	/*Toggle menu*/
+.toggle_menu {width: 377px;}	
+	/*Banner*/
+.index_bg{
+/*	background-color: red;*/
+	background-image: url("file:///C:/wamp64/www/Jithin%20TB/PHP/car_service/images/banner-375.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	}	
+.index_bg h1 {font-size: 34px;}
+.index_bg p {font-size: 13px;line-height: 22px;}
+.hspace {margin-left: 0px;}	
+.btns {margin: 10px 0 0 32px;}	
+	
+	
+	/*Testimonial*/
+.testi_con h1 {margin-left: 15px;}
+.testi_con hr {margin: 0 0 0px 20px;}	
+.client_img {width: 377px;}
+.t1, .t2 {width: 350px;margin-left: 13px;}
+.testi_img {width: 50px;height: 50px;}	
+	
+	/*Contact*/
+.contact h1 {padding: 40px 0 5px 30px;}
+
+}
+
+
+@media(max-width:320px){
+	/*Toggle menu*/
+.toggle_menu {width: 320px;}	
+	/*Banner*/
+.index_bg{
+/*	background-color: red;*/
+	background-image: url("file:///C:/wamp64/www/Jithin%20TB/PHP/car_service/images/banner-320.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	}	
+.index_bg h1 {font-size: 32px;}
+.index_bg p{font-size: 12px;line-height: 21px;}
+.btns {margin: 10px 0 0 32px;}	
+	/*Service*/
+.service_sec {margin: 50px 0 0 0;}	
+	
+	/*Why choose Us*/
+.chooseus_sec {margin:0;}	
+.chooseus_box a {margin-left: 100px;}	
+.chooseus_con h1 {font-size: 24px;padding-left: 15px;}	
+.chooseus_con hr {width: 50px;margin-left: 20px}
+.chooseus_box p {padding: 0 5px;}	
+	/*Gallery*/
+.gallery_sec h1 {font-size: 24px;margin-left: 15px;}	
+.gallery_sec hr {width: 100px;margin-left: 15px;}	
+	
+	/*Testimonial*/
+.testi_sec {margin: 50px 0;}	
+.testi_con h1 {margin-left: 15px;font-size: 24px;}
+.testi_con hr {margin: 0 0 0px 20px;width: 110px;}	
+.client_img {width: 293px;}
+.t1, .t2 {width: 293px;margin-left: 13px;}
+.testi_img {margin: 0 4px;width: 42px;height: 42px;}
+.testi_img:hover {transform: scale(1.1);}
+	
+	/*Contact*/
+.contact h1 {font-size: 24px;padding-left: 20px;padding-top: 25px; }
+.contact hr {width: 98px;margin-left: 23px;}
+
+
+
+
+}
