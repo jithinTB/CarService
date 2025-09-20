@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Untitled Document</title>
+	<title>TorqueX Garage</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -39,7 +39,7 @@
 		<div class="col-3 search">
 			<div class="col-6">
 				<form>
-					<input class="nav_search" type="search" placeholder="search...">
+					<input class="nav_search" type="search" placeholder="Search...">
 				</form>
 			</div>
 		</div>
@@ -59,31 +59,40 @@
 	<!--navbar-->
 
 	<!--banner-->
- <div class="container-fluid index_bg" id="home">
-		<div class="col-12 content">
-			<div data-aos="zoom-out-up" data-aos-duration="2000" class="col-8 indexbg_con">
-				<h1><span style="color:#cb0c0c">Auto Maintenance</span> & <br><span class="hspace">repair service</span>
-				</h1>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-					classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
-					professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-					consectetur, from a Lorem Ipsum passage, and going throLorem Ipsum is not simply random text. It has
-					roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-				<div class="btns">
-					<button id="read_more">Read More</button>
-					<a href="#contact"><button id="contact_us">Contact Us</button></a>
-				</div>
+
+	<!-- Modern Hero Section Start -->
+	<section class="hero-section" id="home">
+
+
+
+		<div class="hero-container">
+			<div class="hero-content">
+				<h1>Drive With Confidence</h1>
+				<p>Your trusted partner for premium car care, repairs, and maintenance. Experience the difference with
+					our expert team and state-of-the-art facility.</p>
+				<a href="#contact" class="hero-cta">Book Your Service</a>
 			</div>
-			<div class="col-4 indexbg_img"><img src="images/index banner_png.png" alt="index banner png"></div>
+			<!-- <div class="hero-image">
+      <img src="images/home_banner.jpg" alt="Modern car service" />
+    </div> -->
 		</div>
-		<div class="clr"></div>
-	</div> 
+
+		<div class="custom-shape-divider-bottom-1758350003">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+				preserveAspectRatio="none">
+				<path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+					class="shape-fill"></path>
+			</svg>
+		</div>
+
+	</section>
+	<!-- Modern Hero Section End -->
 
 	<!--banner-->
 
 
 	<!--Our Service-->
-	 <div class="container-fluid service_sec" id="service">
+	<div class="container-fluid service_sec" id="service">
 		<h1>Our <span style="color:#cb0c0c">Service</span></h1>
 		<hr>
 		<div class="container service_con">
@@ -150,7 +159,7 @@
 
 
 	<!--About us-->
-	 <div class="container-fluid about_sec" id="about">
+	<div class="container-fluid about_sec" id="about">
 		<div class="container about_container">
 			<div class="col-6 about_img">
 				<img src="images/about_img.jpg" alt="car repairing image" class="img-fluid">
@@ -168,7 +177,7 @@
 			</div>
 		</div>
 		<div class="clr"></div>
-	</div> 
+	</div>
 	<!--About us-->
 
 
@@ -209,7 +218,7 @@
 			</div>
 		</div>
 		<div class="clr"></div>
-	</div> 
+	</div>
 	<!--Why choose Us-->
 
 
@@ -256,54 +265,59 @@
 	</div>
 	<!--Gallery-->
 
-	<!--Testimonials-->
+
+	<!--Testimonials Carousel-->
 	<div class="container-fluid testi_sec">
 		<div class="container testi_con">
 			<h1>What our <span style="color:#cb0c0c">clients say</span></h1>
 			<hr>
-			<div data-aos="zoom-in-up" data-aos-duration="1000" class="t1">
-				<p><span style="font-size: 24px">"</span>On the other hand, we denounce with righteous indignation and
-					dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded
-					by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame
-					belongs to those who fail in their duty through The wise man therefore always.<span
-						style="font-size: 24px">"</span></p>
-				<h4>John D</h4>
-			</div>
-			<div data-aos="zoom-in" data-aos-duration="1000" class="t2" style="display: none">
-				<p><span style="font-size: 24px">"</span>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-					blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
-					sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-					animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-					rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-					perferendis doloribus asperiores repellat.<span style="font-size: 24px">"</span></p>
-				<h4>John D</h4>
-			</div>
-			<div class="clr"></div>
-			<div class=" client_img">
-				<div class="col-1 testi_img" id="t1"><img src="images/t2.png" alt="cilent image" class="img-fluid">
+			<div class="testimonial-carousel">
+				<div class="testimonial-slide active">
+					<img class="testimonial-avatar" src="images/t2.png" alt="John D">
+					<div class="testimonial-text">“Great service!”</div>
+					<div class="testimonial-author">- John D</div>
 				</div>
-				<div class="col-1 testi_img" id="t2"><img src="images/t1.png" alt="cilent image" class="img-fluid">
+				<div class="testimonial-slide">
+					<img class="testimonial-avatar" src="images/t1.png" alt="Priya S">
+					<div class="testimonial-text">“Very quick and honest.”</div>
+					<div class="testimonial-author">- Priya S</div>
 				</div>
-				<div class="col-1 testi_img" id="t3"><img src="images/t6.png" alt="cilent image" class="img-fluid">
+				<div class="testimonial-slide">
+					<img class="testimonial-avatar" src="images/t6.png" alt="Alex M">
+					<div class="testimonial-text">“Excellent care.”</div>
+					<div class="testimonial-author">- Alex M</div>
 				</div>
-				<div class="col-1 testi_img" id="t4"><img src="images/t5.png" alt="cilent image" class="img-fluid">
+				<div class="testimonial-slide">
+					<img class="testimonial-avatar" src="images/t5.png" alt="Sara K">
+					<div class="testimonial-text">“Super friendly!”</div>
+					<div class="testimonial-author">- Sara K</div>
 				</div>
-				<div class="col-1 testi_img" id="t5"><img src="images/t7.png" alt="cilent image" class="img-fluid">
+				<div class="testimonial-slide">
+					<img class="testimonial-avatar" src="images/t7.png" alt="Mohammed R">
+					<div class="testimonial-text">“Will return again.”</div>
+					<div class="testimonial-author">- Mohammed R</div>
 				</div>
 			</div>
-
+			<div class="testimonial-dots">
+				<span class="dot active" data-index="0"></span>
+				<span class="dot" data-index="1"></span>
+				<span class="dot" data-index="2"></span>
+				<span class="dot" data-index="3"></span>
+				<span class="dot" data-index="4"></span>
+			</div>
 		</div>
 		<div class="clr"></div>
-	</div> 
-	<!--Testimonials-->
+	</div>
+	<!--Testimonials Carousel-->
 
 
 	<!--Contact-->
-	 <div class="container-fluid contact">
+	<div class="container-fluid contact">
 		<div class="container" id="contact">
-			<h1> <span style="color:#cb0c0c">Have a </span>question ? <br>Contact <span style="color:#cb0c0c">Us</span></h1>
+			<h1> <span style="color:#cb0c0c">Have a </span>question ? <br>Contact <span style="color:#cb0c0c">Us</span>
+			</h1>
 			<hr>
-			
+
 			<div class="col-6 contact_form">
 				<form>
 					<input type="text" id="name" placeholder="Enter Name"><br>
@@ -313,43 +327,43 @@
 					<input type="submit" id="contact_btn" value="Submit">
 				</form>
 			</div>
-			
+
 			<div class="col-6 contact_img">
 				<img src="images/Contact us-bro.png" alt="contact image" class="img-fluid">
 			</div>
-			
+
 		</div>
 		<div class="clr"></div>
-	</div> 
+	</div>
 	<!--Contact-->
 
 
 	<div class="container-fluid">
-	<marquee direction="right">
-		<img src="images/benz_logo.jpg" alt="car logo">
-		<img src="images/bmw_logo.jpg" alt="car logo">
-		<img src="images/jeep_logo.jpg" alt="car logo">
-		<img src="images/kia_logo.jpg" alt="car logo">
-		<img src="images/lamborghini_logo.jpg" alt="car logo">
-		<img src="images/susuki_logo.jpg" alt="car logo">
-		<img src="images/rollsroyce_logo.jpg" alt="car logo">
-		
-		<img src="images/benz_logo.jpg" alt="car logo">
-		<img src="images/bmw_logo.jpg" alt="car logo">
-		<img src="images/jeep_logo.jpg" alt="car logo">
-		<img src="images/kia_logo.jpg" alt="car logo">
-		<img src="images/lamborghini_logo.jpg" alt="car logo">
-		<img src="images/susuki_logo.jpg" alt="car logo">
-		<img src="images/rollsroyce_logo.jpg" alt="car logo">
-	</marquee>
+		<marquee direction="right">
+			<img src="images/benz_logo.jpg" alt="car logo">
+			<img src="images/bmw_logo.jpg" alt="car logo">
+			<img src="images/jeep_logo.jpg" alt="car logo">
+			<img src="images/kia_logo.jpg" alt="car logo">
+			<img src="images/lamborghini_logo.jpg" alt="car logo">
+			<img src="images/susuki_logo.jpg" alt="car logo">
+			<img src="images/rollsroyce_logo.jpg" alt="car logo">
+
+			<img src="images/benz_logo.jpg" alt="car logo">
+			<img src="images/bmw_logo.jpg" alt="car logo">
+			<img src="images/jeep_logo.jpg" alt="car logo">
+			<img src="images/kia_logo.jpg" alt="car logo">
+			<img src="images/lamborghini_logo.jpg" alt="car logo">
+			<img src="images/susuki_logo.jpg" alt="car logo">
+			<img src="images/rollsroyce_logo.jpg" alt="car logo">
+		</marquee>
 		<div class="clr"></div>
 	</div>
 
 
 	<!--Footer-->
-	<div data-aos="fade-up"  data-aos-duration="1000" class="container-fluid footer">
+	<div data-aos="fade-up" data-aos-duration="1000" class="container-fluid footer">
 		<div class="container footer_con">
-			
+
 			<div class="col-4 f1">
 				<div class="col-12">LOGO</div>
 				<div class="col-12">
@@ -361,35 +375,69 @@
 					<div class="col-2 insta"><img src="images/fb_icon.png" alt="icon"></div>
 				</div>
 			</div>
-			
+
 			<div class="col-2 f2">
-				<div class="col-12"><h4>Platform</h4></div>
-				<div class="col-12"><p><a href="#">How it work</a></p></div>
-				<div class="col-12"><p><a href="#">Checkout</a></p></div>
-				<div class="col-12"><p><a href="#">Protection</a></p></div>
-				<div class="col-12"><p><a href="#">Payments</a></p></div>
-				<div class="col-12"><p><a href="#">Accouts</a></p></div>
-			
+				<div class="col-12">
+					<h4>Platform</h4>
+				</div>
+				<div class="col-12">
+					<p><a href="#">How it work</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Checkout</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Protection</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Payments</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Accouts</a></p>
+				</div>
+
 			</div>
-			
+
 			<div class="col-2 f3">
-				<div class="col-12"><h4>Learn</h4></div>
-				<div class="col-12"><p><a href="#">Resource</a></p></div>
-				<div class="col-12"><p><a href="#">Blog</a></p></div>
-				<div class="col-12"><p><a href="#">FAQs</a></p></div>
+				<div class="col-12">
+					<h4>Learn</h4>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Resource</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Blog</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">FAQs</a></p>
+				</div>
 			</div>
-			
+
 			<div class="col-2 f4">
-				<div class="col-12"><h4>About</h4></div>
-				<div class="col-12"><p><a href="#">Carrer</a></p></div>
-				<div class="col-12"><p><a href="#">Team</a></p></div>
-				<div class="col-12"><p><a href="#">partners</a></p></div>
-				<div class="col-12"><p><a href="#">Contact Us</a></p></div>
-				<div class="col-12"><p><a href="#">News and Press</a></p></div>
+				<div class="col-12">
+					<h4>About</h4>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Carrer</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Team</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">partners</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">Contact Us</a></p>
+				</div>
+				<div class="col-12">
+					<p><a href="#">News and Press</a></p>
+				</div>
 			</div>
-			
+
 			<div class="col-2 f5">
-				<div class="col-12"><h4>Platform</h4></div>
+				<div class="col-12">
+					<h4>Platform</h4>
+				</div>
 				<form>
 					<a href="#contact"><button id="footer_btn">Get In Touch</button></a>
 				</form>
