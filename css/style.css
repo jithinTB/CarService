@@ -392,7 +392,6 @@ a {
 	/*footer*/
 .f1 p{font-size: 12px;line-height: 20px;}	
 .f2 a ,.f3 a ,.f4 a{font-size: 11px;}
-.footer_con img {width: 35px;}
 .twitter{margin: 0 20px;}
 #footer_btn {font-size: 14px;width: 101px;height: 42px;}
 	/*footer*/
@@ -458,7 +457,8 @@ a {
 .f1 p {font-size: 14px;}	
 .footer_con h4{font-size: 18px;}
 .footer_con a{font-size: 14px;}
-#footer_btn {width: 140px;height: 45px;}	
+#footer_btn {width: 140px;height: 45px;}
+.f5{margin-bottom:50px;}	
 }
 
 
