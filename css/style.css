@@ -59,7 +59,7 @@ a {
 
 
 		/*banner*/
-.index_bg h1{padding: 180px 0 0 250px;font-size: 105px;font-family:fantasy;letter-spacing: 10px;}
+.index_bg h1{padding: 180px 0 0 250px;font-size: 105px;font-family:Montserrat, SemiBold;letter-spacing: 10px;}
 .index_bg p{padding:10px 200px 0 200px;font-size: 14px;text-align: justify;line-height: 25px;color: #515151;font-family:Montserrat,SemiBold;}
 /*.content{padding:100px 0;}*/
 .index_bg img{padding: 120px 0 0 0;}
@@ -272,12 +272,12 @@ a {
 .toggle_menu {width: 425px;}
 	
 	/*Banner*/
-.index_bg{
-/*	background-color: red;*/
+/*.index_bg{
+	background-color: red;
 	background-image: url("file:///C:/wamp64/www/Jithin%20TB/PHP/car_service/images/banner-425.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	}
+	}*/
 .indexbg_con{width: 100%;}	
 .indexbg_img{display: none;}
 .index_bg h1 {font-size: 38px;text-align: center;padding: 0;}
@@ -342,12 +342,12 @@ a {
 	/*Toggle menu*/
 .toggle_menu {width: 377px;}	
 	/*Banner*/
-.index_bg{
-/*	background-color: red;*/
+/*.index_bg{
+	background-color: red;
 	background-image: url("file:///C:/wamp64/www/Jithin%20TB/PHP/car_service/images/banner-375.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	}	
+	}	*/
 .index_bg h1 {font-size: 34px;}
 .index_bg p {font-size: 13px;line-height: 22px;}
 .hspace {margin-left: 0px;}	
